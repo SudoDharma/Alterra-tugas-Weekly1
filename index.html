@@ -1,0 +1,657 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- My css -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <title>Weekly 1!</title>
+  </head>
+  <body>
+    <nav>
+        <div class="nav nav-tabs nav-fill fixed-top bg-dark" id="nav-tab" role="tablist">
+          <a class="nav-item nav-link" id="nav-git-tab" data-toggle="tab" href="#nav-git" role="tab" aria-controls="nav-git" aria-selected="true">Git</a>
+          
+          <a class="nav-item nav-link" id="nav-uiux-tab" data-toggle="tab" href="#nav-uiux" role="tab" aria-controls="nav-uiux" aria-selected="false">Introduction UI UX</a>
+
+          <a class="nav-item nav-link" id="nav-figma-tab" data-toggle="tab" href="#nav-figma" role="tab" aria-controls="nav-figma" aria-selected="false">Figma</a>
+
+          <a class="nav-item nav-link" id="nav-html-tab" data-toggle="tab" href="#nav-html" role="tab" aria-controls="nav-html" aria-selected="false">HTML</a>
+
+          <a class="nav-item nav-link" id="nav-css-tab" data-toggle="tab" href="#nav-css" role="tab" aria-controls="nav-css" aria-selected="false">CSS</a>
+          
+          <a class="nav-item nav-link" id="nav-bootstrap-tab" data-toggle="tab" href="#nav-bootstrap" role="tab" aria-controls="nav-bootstrap" aria-selected="false">Bootstrap</a>
+
+          <a class="nav-item nav-link" id="nav-js-tab" data-toggle="tab" href="#nav-js" role="tab" aria-controls="nav-js" aria-selected="false">Javascript Refreshment</a>
+
+          <a class="nav-item nav-link active" id="nav-cleancode-tab" data-toggle="tab" href="#nav-cleancode" role="tab" aria-controls="nav-cleancode" aria-selected="false">Clean Code</a>
+        </div>
+      </nav>
+    <div class="tab-content content_container" id="nav-tabContent">
+        <div class="tab-pane fade" id="nav-git" role="tabpanel" aria-labelledby="nav-git-tab">
+            <div class="container-fluid p-3">
+                <h2 class="mb-3">Rangkuman</h2>
+                <section class="mb-3">
+                    <h4 class="mb-2">Apa itu versioning</h4>
+                    <p class="text-justify">
+                        Versioning adalah pengaturan versi atau pelacakkan perubahan dari source code. Version Control System (VCS) adalah sistem atau aplikasi untuk melakukan versioning. Versioning memiliki beberapa tujuan antara lain :
+                        <ol type="1">
+                            <li>Melacak kesalahan di kode program</li>
+                            <li>Mengetahui perubahan yang dilakukan dan siapa yang melakukan perubahan tersebut</li>
+                            <li>Membantu manajemen projek</li>
+                        </ol>
+                    </p>
+                </section>
+                <section class="mb-3">
+                    <h4 class="mb-2">Apa itu Git dan Github</h4>
+                    <p class="text-justify">
+                        Salah satu VCS adalah Git yang diciptakan oleh Linus Torvald. Git adalah salah satu VCS populer yang digunakan para developer untuk mengembangkan software secara bersama-sama. Lalu ada Github yang merupakan tempat hosting dari layanan Git.
+                    </p>
+                </section>
+                <section class="mb-3">
+                    <h4 class="mb-2">Cara menggunakan layanan Github</h4>
+                    <ol type="1">
+                        <li>Membuat remote server</li>
+                        <div class="bg-secondary text-white mx-3 my-1 p-3">
+                            <p>git init</p>
+                            <p>git remote add origin "https..."</p>
+                        </div>
+
+                        <li>Melakukan perubahan di server git</li>
+                        <div class="bg-secondary text-white mx-3 my-1 p-3">
+                            <p>git commit -m "pesan commit disini"</p>
+                            <p>git remote add origin "https..."</p>
+                            <p>git push origin master</p>
+                        </div>
+
+                        <li>Membuat branch dan berpindah ke sebuah branch</li>
+                        <div class="bg-secondary text-white mx-3 my-1 p-3">
+                            <p>git branch nama_branch</p>
+                            <p>git checkout nama_branch</p>
+                        </div>
+                    </ol>
+                </section>
+
+                <h2 class="mb-3">Task</h2>
+                <section>
+                    <p class="mb-2 text-justify">
+                        Task di section ini adalah membuat sebuah repository baru di github, lalu membuat beberapa branch yaitu branch development, feature1 dan feature2. Setelah membuat sebuah projek di branch master maka selanjutnya membuat 3 branch lainnya. Lalu di branch feature1 ditambahkan sebuah fitur baru dan kemudian di merge dengan branch development. Kemudian langkah tersebut diulangi untuk branch feature2. Setelah selesai maka proses commit dan push tiap branch dapat di liat di menu insight -> network
+                    </p>
+
+                    <h4 class="mb-2">Link ke github:</h4>
+                    <a href="https://github.com/SudoDharma/git_praktek.git" target="_blank">
+                        <button type="button" class="btn btn-secondary mb-2">Github</button>
+                    </a>
+
+                    <h4 class="mb-2">Screenshot:</h4>
+                    <img class="img-thumbnail" src="./assets/img/git.png" alt="git">
+                </section>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="nav-uiux" role="tabpanel" aria-labelledby="nav-uiux-tab">
+            <div class="container-fluid p-3">
+                <h2 class="mb-3">Rangkuman</h2>
+                <section class="mb-3">
+                    <h4 class="mb-2">Apa itu UX</h4>
+                    <p class="text-justify">
+                        UX (User Experience) adalah apa saja yang pengguna rasakan ketika menggunakan sebuah produk. Terdapat 6 tahapan UX design thinking:
+                        <ol type="1">
+                            <li>Empathize: Melihat dari sudut pandang user</li>
+                            <li>Define: Menggabungkan informasi yang didapatkan saat tahap empathize</li>
+                            <li>Ideate: Alur penggunaan produk</li>
+                            <li>Prototype</li>
+                            <li>Validate</li>
+                        </ol>
+                        Tahap Prototype dan validate akan sering diulangi untuk mendapat UX yang terbaik
+                    </p>
+                </section>
+                <section class="mb-3">
+                    <h4 class="mb-2">Apa itu UI</h4>
+                    <p class="text-justify">
+                        UI (User interface) adalah visual yang digunakan user untuk berinteraksi dengan produk. Terdapat 4 pilar UI :
+                        <ol type="1">
+                            <li>Consistency</li>
+                            <li>Keep the interface simple</li>
+                            <li>Good typography</li>
+                            <li>Offer informative feedback</li>
+                        </ol>
+                    </p>
+                </section>
+                <section class="mb-3">
+                    <h4 class="mb-2">Apa itu Prototype</h4>
+                    <p class="text-justify">
+                        Prototype adalah simulasi atau versi sampel dari produk akhir yang bertujuan untuk mendapatkan feedback dari user. Terdapat 3 pilar prototype:
+                        <ol type="1">
+                            <li>Representation</li>
+                            <li>Precision</li>
+                            <li>Interactivity</li>
+                        </ol>
+                    </p>
+                </section>
+
+                <h2 class="mb-3">Task</h2>
+                <section>
+                    <p class="mb-2 text-justify">
+                        Task di section ini adalah menganalisa beberapa desain website. Analisa yang dilakukan berupa mengidentifikasi bagian-bagian dari website, menentukan UI dan UX yang ada di desain website tersebut dan juga menentukan color palette dari salah satu desain website. Berikut adalah desain website yang saya pilih di praktikum ini:
+                    </p>
+
+                    <h4 class="mb-2">Link analisa:</h4>
+                    <a href="https://docs.google.com/document/d/1QTW5Z1cZpoRCVCIwqWQjdUr3t7HPO2tuFh0_P5Cvx64/edit?usp=sharing" target="_blank">
+                        <button type="button" class="btn btn-secondary mb-2">Google Docs</button>
+                    </a>
+
+                    <h4 class="mb-2">Screenshot:</h4>
+                    <ol type="A">
+                        <li>Web 1:</li>
+                        <img class="img-thumbnail mb-3" src="./assets/img/uiux1.png" alt="uiux">
+
+                        <li>Web 2:</li>
+                        <img class="img-thumbnail mb-3" src="./assets/img/uiux2.png" alt="uiux">
+
+                        <li>Web 3:</li>
+                        <img class="img-thumbnail mb-3" src="./assets/img/uiux3.png" alt="uiux">
+                    </ol>
+                </section>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="nav-figma" role="tabpanel" aria-labelledby="nav-figma-tab">
+            <div class="container-fluid p-3">
+                <h2 class="mb-3">Rangkuman</h2>
+                <section class="mb-3">
+                    <h4 class="mb-2">Apa itu Figma</h4>
+                    <p class="text-justify">
+                        Figma adalah editor gambar vektor dan alat prototyping yang berbasis web dengan tambahan beberapa fitur offline yang bisa digunakan lewat aplikasi desktop untuk macOS dan Windows
+                    </p>
+                </section>
+                <section class="mb-3">
+                    <h4 class="mb-2">Kelebihan dan kekurangan Figma</h4>
+                    <p class="text-justify">
+                        Kelebihan dari Figma:
+                        <ul>
+                            <li>Gratis</li>
+                            <li>Untuk Mac dan PC</li>
+                            <li>Kolaborasi real-time</li>
+                            <li>Mengimpor file sketch</li>
+                            <li>Library untuk tim yang bagus</li>
+                            <li>Prototyping berkualitas tinggi yang terintegrasi</li>
+                        </ul>
+                        Sedangkan kelemahan dari Figma adalah Figma harus terhubung ke jaringan internet agar dapat bekerja secara maksimal
+                    </p>
+                </section>
+                <section class="mb-3">
+                    <h4 class="mb-2">Fitur-fitur di Figma</h4>
+                    <p class="text-justify">
+                        Figma bisa melakukan beberapa hal seperti:
+                        <ul>
+                            <li>Melakukan import file sketch</li>
+                            <li>Mensetting frame baru</li>
+                            <li>Mensetting grid dan layout kolom</li>
+                            <li>Melakukan import gambar</li>
+                            <li>Melakukan tipografi</li>
+                        </ul>
+                    </p>
+                </section>
+
+                <h2 class="mb-3">Task</h2>
+                <section>
+                    <p class="mb-2">
+                        Task di section ini adalah membuat sebuah desain figma berdasarkan dengan desain yang dipilih di section 3. Desain web yang dipilih yaitu ini. Selain membuat desainnya, desain tersebut juga harus diprototype.
+                    </p>
+
+                    <h4 class="mb-2">Link desain figma:</h4>
+                    <a href="https://www.figma.com/file/uikh88zt7kGTK5Yc2YC1bP/Praktikum_Figma?node-id=0%3A1" target="_blank">
+                        <button type="button" class="btn btn-secondary mb-2">Figma</button>
+                    </a>
+
+                    <h4 class="mb-2">Screenshot:</h4>
+                    <img class="img-thumbnail mb-3" src="./assets/img/figma.png" alt="figma">
+                </section>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="nav-html" role="tabpanel" aria-labelledby="nav-html-tab">
+            <div class="container-fluid p-3">
+                <h2 class="mb-3">Rangkuman</h2>
+                <section class="mb-3">
+                    <h4 class="mb-2">Apa itu HTML</h4>
+                    <p class="text-justify">
+                        Proses web development dibagi menjadi frontend dan backend. Frontend adalah sebuah bagian dari website yang membuat tampilan menarik kepada user. Frontend secara umum tersusun atas 3 komponen:
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JS</li>
+                        </ul>
+
+                        HTML (HyperText Markup Language) adalah sebuah standar yang digunakan secara luas untuk menampilkan halaman web. HTML punya beberapa kegunaan yaitu:
+                        <ul>
+                            <li>Membuat struktur dari halaman website</li>
+                            <li>Mengatur tampilan dan isi dari halaman web</li>
+                            <li>Membuat beberapa konten untuk halaman web seperti tabel, form, gambar dll</li>
+                        </ul>
+                    </p>
+                </section>
+                <section class="mb-3">
+                    <h4 class="mb-2">Bagaimana membuat file HTML</h4>
+                    <p class="text-justify">
+                        Pembuatan HTML bisa menggunakan code/text editor seperti:
+                        <ul>
+                            <li>VS Studio Code</li>
+                            <li>Sublime</li>
+                            <li>Atom</li>
+                        </ul>
+                        Sedangkan untuk menjalankan file HTML yang sudah dibuat bisa dengan menggunakan web browser(Chrome, Edge, Firefox, dll)
+                    </p>
+                </section>
+                <section class="mb-3">
+                    <h4 class="mb-2">Tag-tag di HTML</h4>
+                    <ol type="1">
+                        <li>Ada beberapa dokumentasi untuk tag utama HTML:</li>
+                        <div class="bg-secondary text-white mx-3 my-1 p-3">
+                            <p>DOCTYPE html: Mendefinisikan dokumen sebagai HTML5</p>
+                            <p>html: Elemen root dari halaman HTML</p>
+                            <p>head: Berisi informasi meta suatu dokumen</p>
+                            <p>title: Judul dari dokumen</p>
+                            <p>body: Berisi konten yang akan dimuat di halaman website</p>
+                        </div>
+
+                        <li>Ada beberapa tag yang sering dipakai yaitu:</li>
+                        <div class="bg-secondary text-white mx-3 my-1 p-3">
+                            <p>div: Membungkus elemen HTML</p>
+                            <p>h1 -> h6: Heading</p>
+                            <p>p: Paragraf/teks</p>
+                            <p>br: Baris baru</p>
+                            <p>a: Hyperlink</p>
+                            <p>img: Gambar</p>
+                        </div>
+
+                        <li>Untuk membuat sebuah list ada beberapa tag yaitu:</li>
+                        <div class="bg-secondary text-white mx-3 my-1 p-3">
+                            <p>ol: Ordered list/list terurut</p>
+                            <p>ul: Unordered list/list tak terurut</p>
+                            <p>li: Item dalam list</p>
+                        </div>
+
+                        <li>Untuk membangun sebuah tabel ada beberapa tag yaitu:</li>
+                        <div class="bg-secondary text-white mx-3 my-1 p-3">
+                            <p>table: Membuat tabel</p>
+                            <p>tr: Baris tabel</p>
+                            <p>td: Kolom tabel</p>
+                            <p>th: Header kolom</p>
+                        </div>
+
+                        <li>Untuk membuat sebuah form ada beberapa tag yaitu:</li>
+                        <div class="bg-secondary text-white mx-3 my-1 p-3">
+                            <p>form: Membuat form</p>
+                            <p>input: Masukan untuk form</p>
+                            <p>label: Memberi nama untuk input</p>
+                        </div>
+                    </ol>
+                </section>
+
+                <h2 class="mb-3">Task</h2>
+                <section>
+                    <p class="mb-2 text-justify">
+                        Task di section ini adalah membuat 3 buah dokumen HTML. Pada dokumen HTML pertama yaitu index.html berisi berbagai macam teks dengan heading yang bermacam-macam. Lalu ada ordered list dan juga unordered list. Terakhir ada sebuah hyperlink yang jika diklik akan menuju dokumen form.html. Di halaman ini berisi sebuah form dengan berbagai macam jenis inputan mulai dari teks, radio button, checkbox hingga combobox. Lalu ada tombol Sign Up yang jika diklik akan mengarahkan ke dokumen welcome.html. Di file ini hanya berisi teks selamat datang.
+                    </p>
+
+                    <h4 class="mb-2">Screenshot:</h4>
+                    <ol type="A">
+                        <li>Halaman index:</li>
+                        <img class="img-thumbnail mb-3" src="./assets/img/html2.png" alt="uiux">
+
+                        <li>Halaman signup:</li>
+                        <img class="img-thumbnail mb-3" src="./assets/img/html1.png" alt="uiux">
+
+                        <li>Halaman welcome:</li>
+                        <img class="img-thumbnail mb-3" src="./assets/img/html3.png" alt="uiux">
+                    </ol>
+                </section>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="nav-css" role="tabpanel" aria-labelledby="nav-css-tab">
+            <div class="container-fluid p-3">
+                <h2 class="mb-3">Rangkuman</h2>
+                <section class="mb-3">
+                    <h4 class="mb-2">Apa itu CSS</h4>
+                    <p class="text-justify">
+                        CSS (Cascading Style Sheet) yang berfungsi memperindah halaman web. Jika dianalogikan dengan tubuh manusia, HTML yang sebelumnya merupakan kerangka tulang, maka CSS adalah kulit dan pakaian yang membungkus badan sehingga lebih bagus.
+                        CSS berguna untuk menghias halaman web dan juga mampu mengatur posisi dan tata letak komponen pada halaman web. Ada 3 cara menambahkan file CSS ke dalam file HTML yaitu:
+                        <ul>
+                            <li>External CSS</li>
+                            <li>Internal CSS</li>
+                            <li>Inline CSS</li>
+                        </ul>
+                    </p>
+                </section>
+                <section class="mb-3">
+                    <h4 class="mb-2">Syntax CSS</h4>
+                    <p class="text-justify">
+                        Syntax CSS terdiri atas selector lalu diikuti kurung kurawal. Di dalam kurung kurawal tersebut ada deklarasi dari CSS. Deklarasi tersebut terbagi menjadi property dan value.
+                        <div class="bg-secondary text-white my-1 p-3">
+                            <p> div { background-color: green; width: 200px;} </p>
+                        </div>
+                        Selector adalah pola yang digunakan untuk memilih elemen yang akan diberikan style. Ada 3 cara untuk melakukan CSS selector:
+                        <ul>
+                            <li>ID (#)</li>
+                            <li>Class (.)</li>
+                            <li>HTML tag (Nama_tag)</li>
+                        </ul>
+                        Untuk atribut HTML, ID bersifat unik sehingga dalam satu file HTML hanya boleh ada satu ID, sedangkan untuk class yang sama bisa dimiliki oleh beberapa elemen dan juga sebuah elemen bisa memiliki lebih dari satu class.
+                        <br><br>
+                        CSS grouping adalah ketika beberapa selector dikelompokkan dalam satu deklarasi style. Caranya adalah dengan menulis kedua selector tersebut yang dipisahkan dengan tanda koma.
+                        <div class="bg-secondary text-white my-1 p-3">
+                            <p>h1, h2 { color: green; font-size: 100px;}</p>
+                        </div>
+                    </p>
+                </section>
+                <section class="mb-3">
+                    <h4 class="mb-2">Property di CSS</h4>
+                    <ol type="1">
+                        <li class="my-1">Font</li>
+                        <p class="mt-1 text-justify">CSS fonts memiliki beberapa properti antara lain:</p>
+                        <ul>
+                            <li>Font: Shorthand property</li>
+                            <li>Font-family: Kelompok font teks</li>
+                            <li>Font-size: Ukuran font teks</li>
+                            <li>Font-weight : Ketebalan font teks</li>
+                            <li>Font-style : Style dari font teks seperti italic dll.</li>
+                        </ul>
+                        <li class="my-1">Margin & Padding</li>
+                        <p class="text-justify">
+                            CSS margin dan padding berfungsi untuk mengatur ruang atau jarak antar elemen. Margin adalah jarak dari border elemen ke arah luar sedangkan padding adalah jarak dari border elemen ke arah konten di dalam elemen tersebut. Margin dan padding memiliki properti yang sama. Jika value dari margin/padding hanya satu maka akan value tersebut akan diterapkan ke seluruh sisi. Untuk mengatur masing-masing sisi bisa dengan menggunakan margin/padding - top/left/bottom/right.
+                        </p>
+                        <li class="my-1">Background</li>
+                        <p class="text-justify">
+                            CSS background digunakan untuk mengatur background dari elemen. Ada beberapa properti background antara lain:
+                        </p>
+                        <ul>
+                            <li>Background-color: Warna background</li>
+                            <li>Background-image : Gambar background</li>
+                            <li>Background-repeat : Pengulangan background</li>
+                            <li>Background-size : Ukuran background</li>
+                            <li>Background-position : Posisi background</li>
+                        </ul>
+                        <li class="my-1">Link event</li>
+                        <p class="text-justify">
+                            CSS link event (Pseudo classes) adalah style yang akan diterapkan ketika suatu event pada sebuah elemen terjadi. Ada 3 macam event yaitu:
+                        </p>
+                        <ul>
+                            <li>hover: Ketika mouse berada di atas elemen</li>
+                            <li>active : Ketika elemen di klik</li>
+                            <li>visited: Ketika elemen/link sudah pernah di klik/dikunjungi sebelumnya</li>
+                        </ul>
+                        <li class="my-1">Display</li>
+                        <p class="text-justify">
+                            CSS display untuk menentukan bagaimana tampilan dari suatu elemen. Ada beberapa value dari display yaitu:
+                        </p>
+                        <ul>
+                            <li>Block: Elemen dimulai pada baris baru (dari kiri ke kanan)</li>
+                            <li>Inline-block: Elemen menggunakan panjang/lebar sesuai yang diperlukan</li>
+                            <li>None: Menyembunyikan elemen</li>
+                        </ul>
+                        <li class="my-1">Table</li>
+                        <p class="text-justify">
+                            CSS table digunakan untuk mengatur style tabel. Border umunya menggunakan shorthand property yaitu border-width, border-style, border-color sesuai urutan tersebut.
+                        </p>
+                    </ol>
+                </section>
+
+                <h2 class="mb-3">Task</h2>
+                <section>
+                    <p class="mb-2 text-justify">
+                        Task di section ini adalah membuat sebuah file HTML dan CSS yang menyerupai dengan contohnya. Ada dua macam file yang harus dibuat. File pertama adalah 3 buah kotak dengan posisi dan properti tertentu. Lalu untuk file kedua berupa sebuah desain website sederhana dengan navbar dan footer sekaligus beberapa post di tengahnya sebagai konten.
+                    </p>
+
+                    <h4 class="mb-2">Screenshot:</h4>
+                    <ol type="A">
+                        <li>File 1:</li>
+                        <img class="img-thumbnail mb-3" src="./assets/img/css1.png" alt="css">
+                        <li>File 2</li>
+                        <img class="img-thumbnail mb-3" src="./assets/img/css2.png" alt="css">
+                    </ol>
+                </section>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="nav-bootstrap" role="tabpanel" aria-labelledby="nav-bootstrap-tab">
+            <div class="container-fluid p-3">
+                <h2 class="mb-3">Rangkuman</h2>
+                <section class="mb-3">
+                    <h4 class="mb-2">Apa itu Bootstrap</h4>
+                    <p class="text-justify">
+                        Frontend Framework adalah sekumpulan aturan kode yang bisa digunakan untuk mempermudah dalam membuat suatu tampilan website, salah satunya bootstrap. Bootstrap adalah salah satu framework CSS yang populer untuk mengembangkan website yang responsif. Hanya dengan meletakkan kelas-kelas dari Bootstrap pada elemen HTML maka proses layout dan pembuatan komponen jadi lebih mudah.
+                    </p>
+                </section>
+                <section class="mb-3">
+                    <h4 class="mb-2">Kelebihan Bootstrap</h4>
+                    <ul>
+                        <li>Gratis</li>
+                        <li>Mudah dipelajari</li>
+                        <li>Cepat</li>
+                        <li>Mendukung responsif</li>
+                    </ul>
+                </section>
+                <section class="mb-3">
+                    <h4 class="mb-2">Apa itu Bootstrap</h4>
+                    <p class="text-justify">
+                        Ada dua cara untuk menggunakan Bootstrap di file kita:
+                        <ol type="1">
+                            <li>
+                                Download file Bootstrap File bootstrap tersebut bisa didownload lalu dilettakan di folder project sehingga kelas-kelas Bootstrap bisa digunakan.
+                            </li>
+                            <li>
+                                Menggunakan CDN Bisa dengan menggunakan link CDN untuk menghubungkan file HTML dengan Bootstrap sehingga dapat menggunakan kelas-kelasnya.
+                            </li>
+                        </ol>
+                        Ada beberapa kekurangan dengan cara di atas, jika file Bootstrap didownload maka akan lumayan membuat project jadi berat. Sedangkan jika menggunakan CDN(link), kita tidak perlu mendownload tetapi untuk menggunakan Bootstrapnya maka diperlukan koneksi internet.
+                    </p>
+                </section>
+
+                <h2 class="mb-3">Task</h2>
+                <section>
+                    <p class="mb-2 text-justify">
+                        Task di section ini adalah membuat sebuah website menggunakan Bootstrap berdasarkan desain yang sudah diberikan. Untuk membuat website tersebut memerlukan fitur-fitur dari kelas Bootstrap untuk memudahkan dalam membuat web tersebut menjadi responsif.
+                    </p>
+
+                    <h4 class="mb-2">Screenshot:</h4>
+                    <img class="img-thumbnail mb-3" src="./assets/img/bootstrap.jpeg" alt="bootstrap">
+                </section>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="nav-js" role="tabpanel" aria-labelledby="nav-js-tab">
+            <div class="container-fluid p-3">
+                <h2 class="mb-3">Rangkuman</h2>
+                <section class="mb-3">
+                    <h4 class="mb-2">Apa itu Javascript</h4>
+                    <p class="text-justify">
+                        Javascript(JS) adalah bahasa pemrograman high level, scripting, untyped dan interpreted, artinya:
+                        <ul>
+                            <li>High level: Bahasanya mirip dengan bahasa manusia daripada mesin</li>
+                            <li>Scripting: JS dibuat untuk dapat berinteraksi dengan browser</li>
+                            <li>Untyped: JS tidak berpengaruh terhadap tipe data</li>
+                            <li>Interpreted : Tak perlu dicompile</li>
+                        </ul>
+                        Declaration adalah proses pembuatan variabel untuk menyimpan data. Ada 3 cara untuk mendeklarasikan sebuah variabel yaitu let, var dan const. Const harus diberi nilai saat dideklarasikan. Berikut adalah perbedaan antara let, var dan const:
+                        <table>
+                            <tr>
+                                <td></td>
+                                <td>Declaration</td>
+                                <td>Redeclaration</td>
+                                <td>Reassignment</td>
+                                <td>Hoisting</td>
+                                <td>Global scope</td>
+                                <td>Function scope</td>
+                                <td>Block scope</td>
+                            </tr>
+                            <tr>
+                                <td>Var</td>
+                                <td>O</td>
+                                <td>O</td>
+                                <td>O</td>
+                                <td>O</td>
+                                <td>O</td>
+                                <td>X</td>
+                                <td>O</td>
+                            </tr>
+                            <tr>
+                                <td>Let</td>
+                                <td>O</td>
+                                <td>X</td>
+                                <td>O</td>
+                                <td>X</td>
+                                <td>O</td>
+                                <td>X</td>
+                                <td>X</td>
+                            </tr>
+                            <tr>
+                                <td>Const</td>
+                                <td>X</td>
+                                <td>X</td>
+                                <td>X</td>
+                                <td>X</td>
+                                <td>O</td>
+                                <td>X</td>
+                                <td>X</td>
+                            </tr>
+                        </table>
+                    </p>
+                </section>
+                <section class="mb-3">
+                    <h4 class="mb-2">Tipe Data, Method, dan Control Flow</h4>
+                    <p class="text-justify">
+                        Tipe data di JS dapat dikategorikan menjadi primitives dan object. Primitives adalah pemrosesan terkecil dan elemen paling sederhana seperti string, boolean, number, undefined, null dll. Object adalah unit yang menyimpan properti dan fungsi (method) seperti object, array, function, date, set, map dll.
+                    </p>
+                    <br>
+                    <p class="text-justify">
+                        Method merupakan sebuah fungsi yang terkait dengan object, membuat programnya sesederhana mungkin sesuai kegunaan masing-masing. Bisa diumpamakan method merupakan sebuah shortcut untuk mempersingkat sebuah kode. Macam-macam method di JS antara lain concat, map, foreach, slice, filter, reduce.
+                    </p>
+                    <br>
+                    <p class="text-justify">
+                        Flow di JS ada dua yaitu normal flow dan control flow. Normal flow berarti pengeksekusian statement dari atas ke bawah atau kiri ke kanan yang dilakukan secara berurutan. Control flow berarti mengatur alur eksekusi pada statement atau jalannya program sesuai keinginan kita. Untuk melakukan control flow dibutuhkan dua hal yaitu pengulangan (for, while, do while) dan pengkondisian (if…else, switch, try…catch, break, continue, throw).
+                    </p>
+                </section>
+                <section class="mb-3">
+                    <h4 class="mb-2">Class, Async Wait, dan DOM</h4>
+                    <p class="text-justify">
+                        Class adalah prototype dari suatu object yang akan dibuat. Method adalah sebuah fungsi yang berada di dalam kelas. atribut adalah kumpulan variabel yang membentuk objek yang dimiliki suatu class. Jika diumpamakan, class ini bertindak sebagai sebuah cetakan untuk membuat sebuah objek baru.
+                    </p>
+                    <br>
+                    <p class="text-justify">
+                        Asynchronous adalah hasil eksekusi atau output tidak selalu berdasarkan urutan kode, tetapi berdasarkan waktu proses. Asynchronous function adalah sebuah fungsi yang bekerja secara asynchronous yang menghasilkan promise sebagai return value nya, tetapi cara penulisan kodenya menggunakan penulisan yang synchronous (standar). Await adalah sebuah keyword yang terdapat pada async function yang tujuannya menghentikan eksekusi sambil menunggu promise nya selesai
+                    </p>
+                    <br>
+                    <p class="text-justify">
+                        Document Object Model (DOM) adalah API untuk HTML yang merepresentasikan halaman web pada suatu dokumen menjadi sebuah object.
+                        <br>
+                        Dom selection method:
+                        <ul class="my-1">
+                            <li>getElementById() : Element</li>
+                            <li>getElementByTagName() : HTML collection</li>
+                            <li>getElementByClassName() : HTML collection</li>
+                            <li>querySelector() : Element</li>
+                            <li>querySelectorAll() : nodeList</li>
+                        </ul>
+                        Dom manipulation:
+                        <ul class="my-1">
+                            <li>element.innerHTML : Merubah isi tag</li>
+                            <li>element.style.propertyCSS : Merubah style dari tag</li>
+                            <li>element.setAttribute() : Mengelola/memanipulasi atribut</li>
+                            <li>element.classList.add() : Mengelola/memanipulasi class</li>
+                        </ul>
+                        Dom event:
+                        <ul class="my-1">
+                            <li>element.innerHTML : Merubah isi tag</li>
+                            <li>element.style.propertyCSS : Merubah style dari tag</li>
+                            <li>element.setAttribute() : Mengelola/memanipulasi atribut</li>
+                            <li>element.classList.add() : Mengelola/memanipulasi class</li>
+                        </ul>
+                    </p>
+                </section>
+
+                <h2 class="mb-3">Task</h2>
+                <section>
+                    <p class="mb-2 text-justify">
+                        Task pada section ini adalah diberikan sebuah kode dan beberapa soal mengenai kode tersebut. Kode tersebut lalu dianalisa untuk dapat menjawab beberapa soal-soal yang ada. Selain menganalisa, kita juga diminta untuk merubah atau menambahkan di kode tersebut agar output yang dikeluarkan sesuai dengan yang diminta pada soal.
+                    </p>
+
+                    <h4 class="mb-2">Screenshot:</h4>
+                    <ol type="A">
+                        <li>Nomor 1 dan 2:</li>
+                        <img class="img-thumbnail mb-3" src="./assets/img/js1.png" alt="js">
+                        <li>Nomor 3:</li>
+                        <img class="img-thumbnail mb-3" src="./assets/img/js2.png" alt="js">
+                        <li>Nomor 4:</li>
+                        <img class="img-thumbnail mb-3" src="./assets/img/js3.png" alt="js">
+                        <li>Nomor 5:</li>
+                        <img class="img-thumbnail mb-3" src="./assets/img/js4.png" alt="js">
+                        <li>Nomor 6:</li>
+                        <img class="img-thumbnail mb-3" src="./assets/img/js5.png" alt="js">
+                    </ol>
+                </section>
+            </div>
+        </div>
+        <div class="tab-pane fade show active" id="nav-cleancode" role="tabpanel" aria-labelledby="nav-cleancode-tab">
+            <div class="container-fluid p-3">
+                <h2 class="mb-3">Rangkuman</h2>
+                <section class="mb-3">
+                    <h4 class="mb-2">Apa itu Clean Code</h4>
+                    <p class="text-justify">
+                        Clean code adalah istilah untuk kode yang mudah dibaca, dipahami dan diubah oleh programmer. Menurut Brendon Gregory: "kode yang bekerja tidak selamanya merupakan kode yang bagus, kodemu juga harus mudah untuk dibaca, dimengerti dan diubah". Menurut Martin Fowler: "Siapapun dapat menulis kode yang dapat dimengerti komputer, programer yang bagus dapat menulis kode yang dimengerti manusia"
+                    </p>
+                </section>
+                <section class="mb-3">
+                    <h4 class="mb-2">Mengapa harus menerapkan Clean Code</h4>
+                    <ul>
+                        <li>Kerja bersama dengan orang lain</li>
+                        <li>Mempermudah pengembangan fitur</li>
+                        <li>Mempercepat proses pengembangan</li>
+                    </ul>
+                </section>
+                <section class="mb-3">
+                    <h4 class="mb-2">Karakteristik Clean Code</h4>
+                    <ul>
+                        <li>Mudah dipahami</li>
+                        <li>Mudah dieja dan dicari</li>
+                        <li>Singkat namun deskriptif</li>
+                        <li>Konsisten</li>
+                        <li>Menghindari penambahan konteks yang tidak perlu</li>
+                        <li>Komentar seperlunya</li>
+                        <li>Pembuatan fungsi yang bagus</li>
+                        <li>Menggunakan konvensi</li>
+                        <li>Formatting yang tepat</li>
+                    </ul>
+                    <p class="text-justify">
+                        Jika kode merupakan Clean Code maka pasti akan memenuhi prinsip Clean Code. Prinsip clean code ada dua yaitu KISS (Keep It So SImple) yang artinya membuat fungsi khusus untuk melakukan satu hal saja. Prinsip yang satunya adalah DRY (Don't Repeat Yourself) yang artinya hindari menduplikasi kode.
+                    </p>
+                </section>
+
+                <h2 class="mb-3">Task</h2>
+                <section>
+                    <p class="mb-2 text-justify">
+                        Task di section ini adalah menganalisa sebuah kode yang diberikan. Kode yang diberikan merupakan kode yang belum mengikuti aturan Clean Code. Kita disuruh untuk menemukan dimana saja kekurangan yang ada di kode tersebut. Selain menganalisa, kita juga disuruh menulis ulang kode yang diberikan agar menjadi clean code
+                    </p>
+
+                    <h4 class="mb-2">Screenshot:</h4>
+                    <ol type="A">
+                        <li>File 1:</li>
+                        <img class="img-thumbnail mb-3" src="./assets/img/cleancode1.png" alt="cleancode">
+                        <li>File 2:</li>
+                        <img class="img-thumbnail mb-3" src="./assets/img/cleancode2.png" alt="cleancode">
+                    </ol>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
